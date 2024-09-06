@@ -1,0 +1,48 @@
+<TYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Philadelphia Home Price Predictor</title>
+   <link rel="stylesheet" href="app.css">
+</head>
+<body>
+   <header>
+       <!-- Updated image URL -->
+       <img src="https://wallpapers.com/images/featured/philadelphia-i3yd63migdpqa8qm.jpg" alt="Philadelphia Skyline" class="header-image">
+       <h1>Philadelphia Home Price Predictor</h1>
+   </header>
+
+
+   <div class="container">
+       <form id="priceForm">
+           <div class="form-group">
+               <label for="bed">Number of Bedrooms:</label>
+               <input type="number" id="bed" name="bed" required>
+           </div>
+           <div class="form-group">
+               <label for="bath">Number of Bathrooms:</label>
+               <input type="number" id="bath" name="bath" required>
+           </div>
+           <div class="form-group">
+               <label for="acre_lot">Acre Lot Size:</label>
+               <input type="number" step="0.01" id="acre_lot" name="acre_lot" required>
+           </div>
+           <div class="form-group">
+               <label for="house_size">House Size (sq ft):</label>
+               <input type="number" id="house_size" name="house_size" required>
+           </div>
+           <button type="submit">Predict Price</button>
+       </form>
+       <div id="priceDisplay">
+           <h2>Estimated Price: <span id="estimatedPrice"></span></h2>
+       </div>
+   </div>
+
+
+   <script src="app.js"></script>
+</body>
+</html>
+
+
+

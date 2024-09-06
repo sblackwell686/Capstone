@@ -1,0 +1,94 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   background-color: #f0f0f5;
+   margin: 0;
+   padding: 0;
+}
+
+
+.header-image {
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+}
+
+
+header {
+   text-align: center;
+   background-color: #003366;
+   color: white;
+   padding: 1rem 0;
+}
+
+
+h1 {
+   margin: 0;
+   font-size: 3rem; /* Increased font size */
+   font-weight: bold; /* Made the title bold */
+}
+
+
+.container {
+   width: 90%;
+   max-width: 600px;
+   margin: 20px auto;
+   padding: 20px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-group {
+   margin-bottom: 15px;
+}
+
+
+label {
+   display: block;
+   margin-bottom: 5px;
+   font-size: 1.1rem; /* Slightly larger font size for labels */
+}
+
+
+input {
+   width: 95%; /* Adjusted width to fit within the container */
+   padding: 8px; /* Reduced padding */
+   margin: 5px 0;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+
+button {
+   background-color: #0066cc;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 1rem;
+}
+
+
+button:hover {
+   background-color: #00509e;
+}
+
+
+#priceDisplay {
+   margin-top: 20px;
+   text-align: center;
+}
+
+
+#estimatedPrice {
+   color: #0066cc;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+
+
+
+
